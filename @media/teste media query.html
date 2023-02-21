@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        media query
+    </title>
+
+    <link rel="stylesheet" href="estilo.css" />
+</head>
+
+<body>
+    <h1>testando media querie-resolução diferente.</h1>
+    <p>mude o tamanho do seu navegador para ver as muadanças</p>
+    <div class="caixa um">esta caixa ficara rosa se a area de visao for inferior que 600px</div>
+    <div class="caixa dois">esta caixa ficara laranja se a area de visao for maior que 900px</div>
+    <div class="caixa tres">esta caixa ficara azul se a area de visao estiver entre 600px e 900px</div>
+    <div class="wrapper iphone">esta caixa só sera aplicavel a dispositivos com max-device-width: 480px</div>
+
+    <p class="area-visivel"><strong>sua area de visao atual é: </strong><span class="lt600">menor que 600px</span><span class="bt900-600">entre 600-900px</span><span class="gt900">maior que 900px</span></p>
+</body>
+</html>

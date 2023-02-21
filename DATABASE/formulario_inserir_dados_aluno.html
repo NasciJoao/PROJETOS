@@ -1,0 +1,31 @@
+<!DOCTYPE html> 
+<html>
+    <!-- indica ao navegador que esse é um documento html-->
+    <head>
+        <!-- cabeçalho da pagina-->
+        <title> ormulario para inserir dados do aluno</title>
+        <!-- titulo da pagina que aparece na aba-->
+    </head>
+    <!-- fecha o cabeçalho-->
+    <body>
+        <!-- corpo da pagina, a pagina em si-->
+        <h1> formulario para inserir dados do aluno</h1>
+        <!-- primeira linha da pagina aberta e fechada por <h1></h1>-->
+        <form name="aluno" action="inserir_dados_aluno.php" method="post"> 
+            <!-- form indica inicio de um formulario com o nome "aluno" que seguira as acoes descritas no documento
+        inserir_dados_aluno.php, que utiliza o metodo post para inserir esses dados-->
+            nome: <input type="text" name="nome"> <br><br>
+            <!--nome é agora um item do formulario do tipo texto e aceita qualquer tipo de texto-->
+            email: <input type="text" name="email"> <br><br>
+            <!--email agora é uma tag do tipo texto com o nome de email, que significa que so sera aceito dados com ########@HHHH.com-->
+            senha: <input type="password" name="senha"> <br><br>
+            <!-- senha agora é uma tag do tipo "password" e sempre que um texto for digitado aparecera como *****-->
+
+            <input type="submit"> inserir dados no BD </button>
+            <!-- cria um botao do tipo submit que significa que ele indsere dados-->
+            <input type="reset"> limpar dados do form </button>
+            <!-- cria um botao do tipo reset que zera os dados do banco-->
+
+        </form>
+    </body>
+</html>

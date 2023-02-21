@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta content="text/html; charset=utf=8" http-equiv="content-type">
+        <title> layout com float</title>
+    </head>
+    <body>
+        <div id="a">
+            <h1>titulo</h1>
+            <h2>sub-titulo</h2>
+        </div>
+        <div id="b">
+            <h3>bloco esquerdo</h3>
+            Fim de semana chegando, e o coitado tá no osso
+            Mas acaba de encontrar a solução
+            Coloca um caderninho no bolso
+            Apanha umas fichas e corre prum orelhão
+        </div>
+        <div id="c">
+            <h3>bloco central</h3>
+            É o seu velho caderninho de telefone
+            Com o nome e o número de um monte de mulher
+            E ele vai ligar pra todas
+            Até conseguir chamar uma gata pra sair e dar um rolé
+        </div>
+        <div id="d">
+            <h3>bloco direito</h3>
+            2345Meia78
+            Tá na hora de molhar o biscoito!
+            Eu tô no osso mas eu não me canso
+            Tá na hora de afogar o ganso!
+        </div>
+        <div id="e">&copy; rodapé - 2017</div>
+    </body>
+</html>
